@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navigation Example</title>
+  <script src="script.js"></script>
+  <style>
+#wrapper{
+}
+   #page11{
+    display: inline-block;
+    width: 300px;
+  height: 100px;
+    }
+    #page2{
+        display: inline-block;
+    width: 300px;
+  height: 100px;
+    }
+    #page3{
+        display: inline-block;
+    width: 300px;
+  height: 100px;
+    }
+
+    
+  </style>
+</head>
+<body>
+ <div id="wrapper">
+  <div id="page11" class="page">
+    <h1>Page 1</h1>
+    <a href="url">Page 2</a><br>
+    <button onclick="goToPage(2)">next</button>
+  </div>
+
+  <div id="page2" class="page">
+    <h1>Page 2</h1>
+    <a href="url">Page 3</a><br>
+    <button onclick="goToPage(3)">next</button>
+  </div>
+
+  <div id="page3" class="page">
+    <h1>Page 3</h1>
+    <a href="url">Page 2</a><br>
+    <button onclick="goToPage(2)">Previous</button>
+  </div>\
+    </div>
+</body>
+</html>
